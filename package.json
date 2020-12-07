@@ -1,0 +1,48 @@
+{
+  "name": "vue-action-table",
+  "version": "0.1.0",
+  "description": "Easy to use responsive table with the ability to add action buttons to each row",
+  "main": "src/index.js",
+  "scripts": {
+    "test:unit": "vue-cli-service test:unit",
+    "test:manual": "node tests/manual/server.js"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "table",
+    "component",
+    "action",
+    "actions",
+    "responsive",
+    "mobile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertcorponoi/vue-action-table"
+  },
+  "author": "Robert Corponoi",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-plugin-unit-jest": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "@vue/test-utils": "^1.0.0-beta.33",
+    "eslint": "^7.14.0",
+    "eslint-plugin-vue": "^7.1.0",
+    "fastify": "^3.9.1",
+    "fastify-static": "^3.3.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      ".*\\.(vue)$": "vue-jest"
+    }
+  }
+}
